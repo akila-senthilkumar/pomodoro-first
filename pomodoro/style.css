@@ -1,6 +1,7 @@
 body 
 {
-    background: #040f6b;
+    
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Dancing Script', cursive;
     color:  #fff;
 }
@@ -22,7 +23,7 @@ body
     text-align: center;
     width : 20rem;
     height: 20rem;
-    border : 5px solid #bae8e8;
+    border : 5px solid #fff;
     border-radius: 20rem;
     display: flex;
     justify-content: center;
@@ -38,22 +39,21 @@ body
 }
 .fa-play,
 .fa-redo-alt {
-  color: #e3f6f5;
+  color: #000;
   border: 2px solid transparent;
   padding: 1rem;
   border-radius: 2rem;
 }
 .fa-play:hover,
 .fa-redo-alt:hover {
-  color: #bae8e8;
-  border: 2px solid #bae8e8;
-  transition: 0.3s ease;
+  color: #fff;
+  border: none;
 }
 .show_message {
     display: block;
     padding: 1rem 0;
     color: #272343;
-    background: #e3f6f5;
+    background: fff;
     border-radius: 0.5rem;
     transition: 0.5s ease;
   }
